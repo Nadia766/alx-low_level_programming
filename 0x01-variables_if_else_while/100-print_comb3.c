@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - main function
  *
@@ -6,27 +8,22 @@
  */
 int main(void)
 {
-	int a = 0;
-	int b;
+	int d, p;
 
-	while (a <= 9)
+	for (d = '0' ; d < '9' ; d++)
 	{
-		b = 0;
-		while (b <= 9)
+		for (p = d + 1 ; p <= '9' ; p++)
 		{
-			if (a != b && a < b)
+			if (p != d)
 			{
-				putchar(a + 48);
-				putchar(b + 48);
-				if (a + b != 17)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(d);
+				putchard(p);
+				if (d == '8' && p == '9')
+					continue;
+				putchar(',');
+				putchar(' ');
 			}
-			b++;
 		}
-		a++
 	}
 	putchar('\n');
 	return (0);
