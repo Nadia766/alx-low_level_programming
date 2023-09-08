@@ -1,12 +1,12 @@
-#include <stdlib.h>
+#include <stdlib.h><F8>
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function maib goes there*/
+/* betty style doc for function main goes there */
 /**
- * main - main function<F8>
+ * main - main function
  *
- * Reaturn: always 0
+ * Return: always 0
  */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/*your code goes there*/
+	/* your code goes there */
 	if (n > 0)
 		printf("%d is positive", n);
 	else if (n == 0)
