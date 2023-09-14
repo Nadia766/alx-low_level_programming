@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-	printf_numbers();
+	print_numbers();
 	return (0);
 }
