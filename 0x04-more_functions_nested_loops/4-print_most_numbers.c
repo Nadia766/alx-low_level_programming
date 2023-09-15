@@ -4,7 +4,7 @@
  * Description: prints the number excluding 2 and 4
  * Return: the numbers since 0 up to 9
  */
-int prin_most_numbers(void)
+int print_most_numbers(void)
 {
 	int x = 0;
 
